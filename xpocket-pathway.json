@@ -6,6 +6,12 @@
       "course_id": "xpocket-use",
       "title": "XPocket入门教程",
       "description": "初级教程"
+    },
+    {
+      "course_id": "top_x",
+      "title": "top_x插件使用教程",
+      "description": "top_x插件使用教程"
     }
+
   ]
 }
