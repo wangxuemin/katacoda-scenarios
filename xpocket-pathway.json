@@ -16,7 +16,11 @@
       "course_id": "perf",
       "title": "perf插件使用教程",
       "description": "perf插件使用教程"
+    },
+    {
+      "course_id": "centos",
+      "title": "centos",
+      "description": "centos"
     }
-
   ]
 }
