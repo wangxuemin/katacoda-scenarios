@@ -11,6 +11,11 @@
       "course_id": "top_x",
       "title": "top_x插件使用教程",
       "description": "top_x插件使用教程"
+    },
+    {
+      "course_id": "perf",
+      "title": "perf插件使用教程",
+      "description": "perf插件使用教程"
     }
 
   ]
