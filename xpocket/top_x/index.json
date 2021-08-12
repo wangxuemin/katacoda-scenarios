@@ -14,23 +14,23 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "使用cpu_u和cpu_l命令查看当前cpu使用和系统的负载情况",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "使用cpu_p和cpu_s命令查看当前系统进程列表信息",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "使用cpu_t命令获取占用cpu最高的线程信息",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "使用mem_v和mem_r来查看系统进程物理内存和虚拟内存的使用情况",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "使用mem_s查看系统进程物理swap内存使用情况",
         "text": "step7.md"
       }
     ],
