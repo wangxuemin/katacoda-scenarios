@@ -1,6 +1,11 @@
-1.使用命令`cpu_t`{{execute}} 来打印占用cpu最高的线程信息, 默认打印该线程
-所在进程的全部线程列表，并按照cpu使用率排序。
+1.可以使用record命令来采集cpu热点，最好通过-p 参数来指定进程,由于测试程序每次进程pid不一样
+所以本例中采集系统所有进程的热点数据
 
-2.使用参数 -h 可以直接取得top cpu的 tid 和 pid `cpu_t -h`{{execute}} 
+2.使用命令 `record sleep 15`{{execute}} 采集系统所有进程的cpu热点函数
 
-3.使用参数 -ht 可以直接取得top cpu线程的具体信息 `cpu_t -h`{{execute}} 
+3.等待15s 等待数据采集完成 
+
+4.使用命令 `report`{{execute}} 查看热点函数分析报告
+
+5.使用命令 `report --no-children  --stdio --call-graph=graph `{{execute}} 更改报告的显示格式
+

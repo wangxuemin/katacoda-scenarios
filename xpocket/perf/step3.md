@@ -1,4 +1,7 @@
-1.使用命令`cpu_u`{{execute}} 来查看当前cpu的使用情况
-包含 user system  idle 的情况。
+1.下载cpu测试程序源码 `wget https://raw.githubusercontent.com/wangxuemin/katacoda-scenarios/main/xpocket/resourse/useallcpu.c`。
 
-2.使用命令`cpu_l`{{execute}} 来查看当前系统的load average情况。
+2.查看一下测试程序源码`more useallcpu.c`{{execute}}。
+
+3.编译测试程序`gcc useallcpu.c -o useallcpu -pthread`{{execute}}。
+
+4.运行测试程序`nohup ./useallcpu &`{{execute}}。

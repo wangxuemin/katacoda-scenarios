@@ -1,6 +1,6 @@
 {
-  "title": "top_x",
-  "description": "top_x usage",
+  "title": "perf",
+  "description": "perf usage",
   "difficulty": "Beginner",
   "time": "6",
   "details": {
@@ -10,27 +10,27 @@
         "text": "step1.md"
       },
       {
-        "title": "进入top_x插件",
+        "title": "下载perf最新插件",
         "text": "step2.md"
       },
       {
-        "title": "使用cpu_u和cpu_l命令查看当前cpu使用和系统的负载情况",
+        "title": "编译并运行测试程序useallcpu.c",
         "text": "step3.md"
       },
       {
-        "title": "使用cpu_p和cpu_s命令查看当前系统进程列表信息",
+        "title": "查看useallcpu进程的运行情况",
         "text": "step4.md"
       },
       {
-        "title": "使用cpu_t命令获取占用cpu最高的线程信息",
+        "title": "使record 和 report 命令来查看useallcpu的热点函数",
         "text": "step5.md"
       },
       {
-        "title": "使用mem_v和mem_r来查看系统进程物理内存和虚拟内存的使用情况",
+        "title": "使用script来查看热点函数的原始数据",
         "text": "step6.md"
       },
       {
-        "title": "使用mem_s查看系统进程物理swap内存使用情况",
+        "title": "使用analyze 命令自动分析useallcpu的热点函数",
         "text": "step7.md"
       }
     ],
