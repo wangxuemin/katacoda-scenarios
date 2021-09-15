@@ -18,20 +18,8 @@
         "text": "step3.md"
       },
       {
-        "title": "查看useallcpu进程的运行情况",
+        "title": "查看tcp连接的详细信息",
         "text": "step4.md"
-      },
-      {
-        "title": "使record 和 report 命令来查看useallcpu的热点函数",
-        "text": "step5.md"
-      },
-      {
-        "title": "使用script来查看热点函数的原始数据",
-        "text": "step6.md"
-      },
-      {
-        "title": "使用analyze 命令自动分析useallcpu的热点函数",
-        "text": "step7.md"
       }
     ],
     "intro": {
