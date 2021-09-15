@@ -1,7 +1,8 @@
-1.下载cpu测试程序源码 `wget https://raw.githubusercontent.com/wangxuemin/katacoda-scenarios/main/xpocket/resourse/useallcpu.c`{{execute}}。
 
-2.查看一下测试程序源码`more useallcpu.c`{{execute}}。
+1.启动XPocket
+`sh xpocket/xpocket_jdk9+.sh`{{execute}}
 
-3.编译测试程序`gcc useallcpu.c -o useallcpu -pthread`{{execute}}。
+2.通过 ` system.use ss@LINUX`{{execute}} ss.
 
-4.运行测试程序`nohup ./useallcpu &`{{execute}}。
+3.查看系统所有tcp/udp状态`ss`{{execute}}。
+
