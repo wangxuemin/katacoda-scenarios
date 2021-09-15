@@ -20,6 +20,10 @@
       {
         "title": "查看tcp连接的详细信息",
         "text": "step4.md"
+      },
+      {
+        "title": "-n显示端口信息",
+        "text": "step4.md"
       }
     ],
     "intro": {
