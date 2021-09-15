@@ -1,1 +1,1 @@
-ss
+ss用来替代netstat的，可以用来获取socket统计信息，它可以显示和netstat类似的内容。 但ss的优势在于它能够显示更多更详细的有关tcp和连接状态的信息，而且比netstat更快速更高效。
